@@ -22,3 +22,16 @@ If all went well then your command line prompt should now start with `(productio
 If your command line prompt does not start with `(productionready)` at this point, try running `pyenv activate productionready` or `cd ../productionready-django-api`. 
 
 If pyenv is still not working, visit us in the Thinkster Slack channel so we can help you out.
+
+by Johnny
+
+Instructions to windows environment
+
+Install [Python 3.8+] (https://www.python.org/downloads/)
+
+python -m venv .conduit
+.\.conduit\Scripts\activate
+python -m pip install --upgrade pip
+pip install -r .\requirements.txt
+python .\manage.py runserver 8000
+
